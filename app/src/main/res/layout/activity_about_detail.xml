@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hitch.hitch.Activity.AboutDetailActivity">
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/hobbies" />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="5"
+        android:gravity="top|start"
+        android:ems="10"
+        android:id="@+id/hobbies"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/list"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/yourself" />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="10"
+        android:gravity="top|start"
+        android:ems="10"
+        android:id="@+id/aboutme"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:hint="@string/list"/>
+
+    <Button
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/about_detail_next"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="#ff0000"/>
+
+</LinearLayout>

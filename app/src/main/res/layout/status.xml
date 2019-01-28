@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="26dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/colorPrimary" />
+            <View
+                android:id="@+id/hview"
+                android:layout_below="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/colorPrimary"
+                />
+            <EditText
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Update your status..."
+                android:layout_below="@+id/hview"
+                android:lines="3"
+                android:gravity="top|start"
+                android:inputType="textMultiLine|textCapSentences"
+                android:padding="8dp"/>
+            <View
+                android:id="@+id/hview2"
+                android:layout_below="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/colorPrimary"
+                />
+            <Button
+                android:id="@+id/statusBtn"
+                android:layout_width="100dp"
+                android:layout_height="35sp"
+                android:layout_below="@+id/hview2"
+                android:text="update"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

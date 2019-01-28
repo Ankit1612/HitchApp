@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Hitch</string>
+
+    <!-- Login Activity -->
+    <string name="create_account">No account yet? Create one</string>
+    <string name="or">or</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="profile_pic_content">Profile Image</string>
+
+    <!-- Profile Detail Activity -->
+    <string name="full_name">Full Name</string>
+    <string name="u_name">User Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="hometown">HomeTown</string>
+    <string name="next">Next</string>
+
+    <!-- SignUp Activity -->
+    <string name="fullname">Full Name</string>
+    <string name="sign_up">SignUP</string>
+    <string name="logo_content">App Logo</string>
+
+    <!-- About Detail Activity -->
+    <string name="hobbies">Your Hobbies</string>
+    <string name="list">List&#8230;</string>
+    <string name="yourself">About MySelf</string>
+
+    <!-- Educational Detail Activity -->
+    <string name="univ_name">University Name</string>
+    <string name="college_name">College Name</string>
+    <string name="college_loc">College Location</string>
+    <string name="year">Batch Start Year</string>
+    <string name="gradu">Graduation</string>
+    <string name="degree">Degree Programme</string>
+    <string name="branch">Branch</string>
+
+    <!-- Work Detail Activity -->
+    <string name="award">Awards/Achievements</string>
+    <string name="project">Projects/Publications</string>
+    <string name="society">Society/NGO</string>
+    <string name="website">Websites/Blogs</string>
+
+    <!-- Finished Detail Activity -->
+    <string name="finish">Finished</string>
+    <string name="wait">wait&#8230;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="status">ambitious, dog lover, coffee addict, 21, MBA - finance and digital marketing hahahha</string>
+    <string name="username">abhieshree</string>
+
+    <!-- Firebase Messages -->
+    <string name="auth_failed">Failed to Authenticate.</string>
+    <string name="auth_success">Authentication Success.</string>
+
+    <!-- Firebase Databases field -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="field_username">username</string>
+    <string name="field_about_me">about_me</string>
+    <string name="field_awards">awards</string>
+    <string name="field_batch_start_date">batch_start_date</string>
+    <string name="field_branch">branch</string>
+    <string name="field_college_location">college_location</string>
+    <string name="field_college_name">college_name</string>
+    <string name="field_cover_page_image">cover_page_image</string>
+    <string name="field_degree_programme">degree_programme</string>
+    <string name="field_dob">dob</string>
+    <string name="field_fullname">fullname</string>
+    <string name="field_graduate">graduate</string>
+    <string name="field_hobbies">hobbies</string>
+    <string name="field_hometown">hometown</string>
+    <string name="field_profile_image">profile_image</string>
+    <string name="field_project_publication">project_publication</string>
+    <string name="field_society_ngo">society_ngo</string>
+    <string name="field_university">university</string>
+    <string name="field_website_blogs">website_blogs</string>
+    <string name="field_status">status</string>
+    <string name="field_profile_id">profile_id</string>
+
+
+    <!-- photo type-->
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profile_photo</string>
+
+    <!-- strings -->
+    <string name="calling_activity">calling_activity</string>
+    <string name="gallery">GALLERY</string>
+    <string name="photos">PHOTOS</string>
+    <string name="intent_user">intent_user</string>
+    <string name="selected_image">selected_image</string>
+
+    <!-- intent extras -->
+    <string name="return_to_fragment">return_to_fragment</string>
+
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+
+    <!-- activity names-->
+    <string name="home_activity">home_activity</string>
+
+</resources>

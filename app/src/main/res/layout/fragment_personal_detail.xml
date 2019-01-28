@@ -1,0 +1,373 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hitch.hitch.Fragment.PersonalDetailFragment">
+
+  <ScrollView
+      android:id="@+id/detailRV"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/eduCard"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <ImageView
+                      android:id="@+id/image1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_education"
+                      android:background="@android:color/transparent"
+                      android:layout_margin="10dp"/>
+                  <TextView
+                      android:id="@+id/education"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Education"
+                      android:layout_toRightOf="@+id/image1"
+                      android:layout_marginTop="15dp"
+                      android:textSize="20dp"
+                      />
+
+                  <View
+                      android:id="@+id/divider"
+                     style="@style/divider"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginRight="20dp"
+                      android:layout_below="@+id/image1"/>
+
+                  <ImageView
+                      android:id="@+id/univImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_university"
+                      android:layout_below="@+id/divider"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginTop="10dp"/>
+
+                  <TextView
+                      android:id="@+id/universityName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/univImage"
+                      android:layout_below="@+id/divider"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Govindh Bhalla Pant University of Agri. and Culture"/>
+
+                  <ImageView
+                      android:id="@+id/collegeImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_college"
+                      android:layout_below="@+id/univImage"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/collegeName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/collegeImage"
+                      android:layout_below="@+id/universityName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="College of Technology"/>
+
+                  <ImageView
+                      android:id="@+id/placeImage"
+                      android:layout_width="30dp"
+                      android:layout_height="22dp"
+                      android:src="@drawable/ic_marker"
+                      android:layout_below="@+id/collegeImage"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/placeName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/placeImage"
+                      android:layout_below="@+id/collegeName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Pantnagar, UK"/>
+
+                  <ImageView
+                      android:id="@+id/graduateImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_graduate"
+                      android:layout_below="@+id/placeName"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/graduateName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/graduateImage"
+                      android:layout_below="@+id/placeName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Undergraduate"/>
+
+                  <ImageView
+                      android:id="@+id/degreeImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_degree"
+                      android:layout_below="@+id/graduateImage"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/degreeName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/degreeImage"
+                      android:layout_below="@+id/graduateName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="B.Tech"/>
+                  <ImageView
+                      android:id="@+id/branchImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_computer"
+                      android:layout_below="@+id/degreeName"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/branchName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/branchImage"
+                      android:layout_below="@+id/degreeName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Computer Science"/>
+                  <ImageView
+                      android:id="@+id/yearImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_batch"
+                      android:layout_below="@+id/branchName"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginBottom="10dp"/>
+
+                  <TextView
+                      android:id="@+id/yearhName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/yearImage"
+                      android:layout_below="@+id/branchName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="2013"/>
+
+              </RelativeLayout>
+
+          </android.support.v7.widget.CardView>
+          <android.support.v7.widget.CardView
+              android:id="@+id/workCard"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_below="@+id/eduCard">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <ImageView
+                      android:id="@+id/image2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_education"
+                      android:background="@android:color/transparent"
+                      android:layout_margin="10dp"/>
+                  <TextView
+                      android:id="@+id/work"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Work Done"
+                      android:layout_toRightOf="@+id/image2"
+                      android:layout_marginTop="15dp"
+                      android:textSize="20dp"
+                      />
+
+                  <View
+                      android:id="@+id/divider2"
+                      style="@style/divider"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginRight="20dp"
+                      android:layout_below="@+id/image2"/>
+
+                  <ImageView
+                      android:id="@+id/awardImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_awards"
+                      android:layout_below="@+id/divider2"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginTop="10dp"/>
+
+                  <TextView
+                      android:id="@+id/awardName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/awardImage"
+                      android:layout_below="@+id/divider2"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginLeft="10dp"
+                      android:text=" 1st in CodeVita, 2nd in Webomania"/>
+
+                  <ImageView
+                      android:id="@+id/projectImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_publication"
+                      android:layout_below="@+id/awardImage"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/projectName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/projectImage"
+                      android:layout_below="@+id/awardName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Publish an app in play store, Public a book on artificial inelligence"/>
+
+                  <ImageView
+                      android:id="@+id/societyImage"
+                      android:layout_width="30dp"
+                      android:layout_height="22dp"
+                      android:src="@drawable/ic_soceity"
+                      android:layout_below="@+id/projectName"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/societyName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/societyImage"
+                      android:layout_below="@+id/projectName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Chetna Ngo, ETS, Robotics Club Mamber"/>
+
+                  <ImageView
+                      android:id="@+id/blogImage"
+                      android:layout_width="64px"
+                      android:layout_height="64px"
+                      android:src="@drawable/ic_website"
+                      android:layout_below="@+id/societyImage"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginTop="8dp"/>
+
+                  <TextView
+                      android:id="@+id/blogName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/blogImage"
+                      android:layout_below="@+id/societyName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:autoLink="web"
+                      android:layout_marginBottom="10dp"
+                      android:text="www.windolinux.com"/>
+
+              </RelativeLayout>
+
+          </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/aboutCard"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_below="@+id/workCard">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <ImageView
+                      android:id="@+id/image3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_education"
+                      android:background="@android:color/transparent"
+                      android:layout_margin="10dp"/>
+                  <TextView
+                      android:id="@+id/about"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="About"
+                      android:layout_toRightOf="@+id/image3"
+                      android:layout_marginTop="15dp"
+                      android:textSize="20dp"
+                      />
+
+                  <View
+                      android:id="@+id/divider3"
+                      style="@style/divider"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginRight="20dp"
+                      android:layout_below="@+id/image3"/>
+
+                  <ImageView
+                      android:id="@+id/awarImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_awards"
+                      android:layout_below="@+id/divider3"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginTop="10dp"/>
+
+                  <TextView
+                      android:id="@+id/aboutName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/awarImage"
+                      android:layout_below="@+id/divider3"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginLeft="10dp"
+                      android:text=" 1st in CodeVita, 2nd in Webomania ublish an app in play store, Public a book on artif\n
+                      ublish an app in play store, Public a book on artif ublish an app in play store, Public a book on artif\n
+                      ublish an app in play store, Public a book on artif"/>
+
+                  <ImageView
+                      android:id="@+id/projecImage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_publication"
+                      android:layout_below="@+id/aboutName"
+                      android:layout_marginLeft="50dp"/>
+
+                  <TextView
+                      android:id="@+id/hobbiesName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_toRightOf="@+id/projecImage"
+                      android:layout_below="@+id/aboutName"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:text="Publish an app in play store, Public a book on artificial inelligencem
+                      ublish an app in play store, Public a book on artificial inelligence ublish an app in play store, Public a book on artificial inelligence
+                      ublish an app in play store, Public a book on artificial inelligence "/>
+
+              </RelativeLayout>
+
+          </android.support.v7.widget.CardView>
+      </RelativeLayout>
+
+  </ScrollView>
+
+</FrameLayout>

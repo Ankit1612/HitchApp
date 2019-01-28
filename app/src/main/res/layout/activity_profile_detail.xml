@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hitch.hitch.Activity.ProfileDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sqr"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:hint="@string/full_name" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/u_name"/>
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:hint="@string/dob"/>
+
+            <EditText
+                android:id="@+id/hometown"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:hint="@string/hometown"/>
+
+            <Button
+                android:id="@+id/profile_detail_next"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="37dp"
+                android:textColor="#ffffff"
+                android:background="#ff0000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

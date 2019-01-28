@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999761999413",
+    "firebase_url": "https://hitch-da011.firebaseio.com",
+    "project_id": "hitch-da011",
+    "storage_bucket": "hitch-da011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999761999413:android:4341b45e17089945",
+        "android_client_info": {
+          "package_name": "com.hitch.hitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999761999413-pgjrg61g3q5ftv56vdbbjm1b5335ditt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitch.hitch",
+            "certificate_hash": "c0a82e353e8172f2e9e0fd1dd0818c8d0947051c"
+          }
+        },
+        {
+          "client_id": "999761999413-71d1urohbk7i5l3ti2e9tgjaflg2b316.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtnDGhH0S26MwyXqo1KFYQTe_wmvWchw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999761999413-71d1urohbk7i5l3ti2e9tgjaflg2b316.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

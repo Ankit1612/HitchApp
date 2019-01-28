@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hitch.hitch.Activity.FinishDetailActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/hitchlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/logo_content"/>
+
+    <ProgressBar
+        android:id="@+id/finish_progress"
+        android:layout_width="310dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="40" />
+
+    <TextView
+        android:id="@+id/wait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wait"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/finish"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff"
+        android:background="#ff0000" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hitch.hitch.Activity.SignUpActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:src="@drawable/hitchlogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/logo_content"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/fullname"
+            android:inputType="textPersonName"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:hint="@string/fullname"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signup_email_id"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/email_id"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signup_password"
+            android:inputType="textPassword"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:hint="@string/password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:textColor="#ffffff"
+        android:background="#ff0000" />
+
+    <TextView
+        android:id="@+id/backtologin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Already have account? Click to Login"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:clickable="true"/>
+
+</LinearLayout>

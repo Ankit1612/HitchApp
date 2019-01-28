@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.hitch.hitch.Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="304dp"
+        android:layout_height="75dp"
+        android:src="@drawable/hitchlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.73"
+        android:paddingTop="10dp"
+        android:contentDescription="@string/profile_pic_content"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/login_email_name"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/email_id"/>
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:hint="@string/password"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:background="#ff0000"/>
+
+    <TextView
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/create_account"
+        android:clickable="true"
+        android:textColorHighlight="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:paddingTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:text="@string/or" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@id/tvText"
+            android:layout_toStartOf="@+id/tvText"
+            android:background="#FF0000"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/tvText"
+            android:layout_toRightOf="@id/tvText"
+            android:background="#FF0000"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/fb_login_button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#2196F3"
+        android:layout_marginTop="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.hitch.hitch.Activity.WorkDetailActivity">
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/award" />
+
+    <EditText
+        android:id="@+id/awards"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="top|start"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:hint="@string/list"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/project" />
+
+    <EditText
+        android:id="@+id/projects"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="top|start"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:hint="@string/list"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/society" />
+
+    <EditText
+        android:id="@+id/society"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:gravity="top|start"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:hint="@string/list"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/website" />
+
+    <EditText
+        android:id="@+id/websites"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:gravity="top|start"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:hint="@string/list"/>
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/work_detail_next"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#ff0000"/>
+
+</LinearLayout>

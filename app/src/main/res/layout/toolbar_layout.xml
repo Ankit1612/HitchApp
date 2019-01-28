@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/toolbarmenucontainer"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_grey_white_top">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/home_icon"
+            android:contentDescription="@string/logo_content"/>
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_search"
+            android:contentDescription="@string/logo_content"/>
+
+        <ImageButton
+            android:id="@+id/gallery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight = "1"
+            android:src="@drawable/ic_gallery2"
+            android:contentDescription="@string/logo_content"/>
+
+        <ImageButton
+            android:id="@+id/notification"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight = "1"
+            android:src="@drawable/notification_icon"
+            android:contentDescription="@string/logo_content"/>
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_weight = "1"
+            android:src="@drawable/ic_customer"
+            android:contentDescription="@string/logo_content"/>
+
+    </LinearLayout>
+</merge>

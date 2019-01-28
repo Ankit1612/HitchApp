@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/profile_pic_content"
+            android:src="@drawable/circleprofile"
+            android:scaleType="centerCrop"
+            android:fitsSystemWindows="true"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abhieshree Dhami"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imPhoto"/>
+
+
+            <TextView
+                android:id="@+id/tvBatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sec Year,"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/tvName"/>
+
+            <TextView
+                android:id="@+id/tvBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/tvBatch"
+                />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBranch"
+            android:src="@drawable/ic_comment"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

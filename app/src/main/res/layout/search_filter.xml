@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <EditText
+            android:id="@+id/namefilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type his/her name." />
+
+    <LinearLayout
+        android:id="@+id/yeargender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namefilter"
+        android:weightSum="2">
+        <EditText
+            android:id="@+id/yearfilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="In which year?"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/genderfilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Boy / Girl" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/branchcollege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yeargender"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/branchfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="In which branch?"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/collegefilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="College Name"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/filterSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_below="@+id/branchcollege"
+            android:text="Search"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
